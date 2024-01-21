@@ -1,0 +1,4 @@
+display: Child1
+compatibility: rocon:/*
+launch: child1.launch
+parent_name: multi_children/parent

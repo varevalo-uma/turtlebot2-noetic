@@ -1,0 +1,3 @@
+compatibility: rocon:/*
+launch: child.launch
+parent_name: chained/parent

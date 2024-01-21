@@ -1,0 +1,6 @@
+display: Parent Talker in publics
+description: Parent Publics Hola 
+public_interface: parent.interface
+public_parameters: parent.parameters
+compatibility: rocon:/*
+launch: parent.launch

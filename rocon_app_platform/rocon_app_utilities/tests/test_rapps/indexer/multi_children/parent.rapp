@@ -1,0 +1,6 @@
+display: Talker
+description: Default ros style talker tutorial
+public_interface: parent.interface
+public_parameters: parent.parameters
+compatibility: rocon:/*
+launch: parent.launch

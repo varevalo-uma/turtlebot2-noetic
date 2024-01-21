@@ -1,0 +1,16 @@
+<launch>
+  <arg name="hub_name" default="Rocon Hub" />
+  <arg name="hub_port" default="6380" />
+  <arg name="zeroconf" default="true" />
+  <arg name="gateway_gone_timeout" default="30"/>
+  <arg name="hub_watcher_thread_rate" default="0.2"/>
+
+  <node pkg="rocon_hub" type="hub.py" name="hub">
+    <rosparam command="load" file="$(find rocon_hub)/param/default.yaml" />
+    <param name="name"                        value="$(arg hub_name)" />
+    <param name="port"                        value="$(arg hub_port)" />
+    <param name="zeroconf"                    value="$(arg zeroconf)" />
+    <param name="gateway_gone_timeout"        value="$(arg gateway_gone_timeout)"/>
+    <param name="watcher_thread_rate"         value="$(arg hub_watcher_thread_rate)"/>
+  </node>
+</launch>

@@ -1,0 +1,6 @@
+display: Ancestor Talker
+description: Default ros style talker tutorial
+public_interface: ancestor.interface
+public_parameters: ancestor.parameters
+compatibility: rocon:/*
+launch: ancestor.launch

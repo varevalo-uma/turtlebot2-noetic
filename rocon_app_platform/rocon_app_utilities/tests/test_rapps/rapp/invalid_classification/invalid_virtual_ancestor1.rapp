@@ -1,0 +1,4 @@
+#display: Talker
+#description: Default ros style talker tutorial
+public_interface: foo.interface
+public_parameters: foo.parameters

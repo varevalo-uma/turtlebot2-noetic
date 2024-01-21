@@ -1,0 +1,7 @@
+#display: Talker
+description: Default ros style talker tutorial
+public_interface: foo.interface
+public_parameters: foo.parameters
+compatibility: rocon:/*
+launch: foo.launch
+parent_name: rocon_apps/talker.rapp
